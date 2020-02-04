@@ -70,10 +70,10 @@
     "showdashboard": true,
         "dashboards": {
           "name": "Site",
-          "port": 8080
+          "port": 8080,
+          "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/"
         },
-        "uilayout": "terminal-iframe",
-        "uimessage1": "\u001b[32mTerminal\u001b[m\r\n"
+        "uilayout": "terminal"
   },
   "backend": {
     "imageid": "docker"
