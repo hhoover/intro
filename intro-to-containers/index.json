@@ -1,6 +1,6 @@
 {
   "title": "Introduction to Containers",
-  "description": "description",
+  "description": "Learn how to build and run a docker container.",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
