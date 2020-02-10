@@ -63,7 +63,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [{"file": "hugosite.tar.gz", "target": "/home/scrapbook/"}]
+      "host01": [{"file": "hugosite.tar.gz", "target": "~/"}]
     }
   },
   "environment": {
