@@ -61,9 +61,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [{"file": "hugosite.tar.gz", "target": "~/"}]
     }
   },
   "environment": {
