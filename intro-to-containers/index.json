@@ -69,7 +69,7 @@
           "name": "Site",
           "port": 8080
         }],
-        "uilayout": "terminal-iframe",
+        "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "docker"
