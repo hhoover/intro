@@ -1,5 +1,3 @@
-## Build a Container Image
-
 Perform an image build of the website using the [docker build][0] command. This
 uses our Dockerfile to build the image. We'll also give our image a name and a
 tag:

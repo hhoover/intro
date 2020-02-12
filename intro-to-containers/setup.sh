@@ -6,4 +6,5 @@ rm -f /home/scrapbook/hugosite.tar.gz
 service docker restart
 docker pull alpine
 docker pull nginx:stable-alpine
+docker pull registry:v2
 echo "Welcome to Into to Containers!"

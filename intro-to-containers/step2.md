@@ -1,5 +1,3 @@
-## Explore the Dockerfile
-
 In the Dockerfile, we can see what's known as a "[multi-stage build][0]", where
 we are using one image to build our application (with any dependencies), and
 another image we would use for deployment that would not include any build

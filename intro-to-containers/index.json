@@ -54,6 +54,31 @@
         "title": "Push Your Image",
         "code": "clear.sh",
         "text": "step10.md"
+      },
+      {
+        "title": "View the Kubernetes Deployment",
+        "code": "clear.sh",
+        "text": "step11.md"
+      },
+      {
+        "title": "Deploy to Kubernetes",
+        "code": "clear.sh",
+        "text": "step12.md"
+      },
+      {
+        "title": "View the Kubernetes Service",
+        "code": "clear.sh",
+        "text": "step13.md"
+      },
+      {
+        "title": "Deploy a Kubernetes Service",
+        "code": "clear.sh",
+        "text": "step14.md"
+      },
+      {
+        "title": "View the Website",
+        "code": "clear.sh",
+        "text": "step15.md"
       }
     ],
     "intro": {
@@ -63,15 +88,31 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "host01": [
+      {
+        "file": "deployment.yaml",
+        "target": "~/kubernetes-yaml"
+      },
+      {
+        "file": "service.yaml",
+        "target": "~/kubernetes-yaml"
+      }
+    ]
+  },
   "environment": {
     "showdashboard": true,
         "dashboards": [{
-          "name": "Site",
+          "name": "DockerSite",
           "port": 8080
+        },
+        {
+          "name": "KubeSite",
+          "port": 32321
         }],
         "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "kubernetes"
   }
 }

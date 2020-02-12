@@ -1,5 +1,3 @@
-## Run a Container
-
 Now that your image has been created, we can run a container using the image.
 Use the docker run command below to launch a container from your image:
 

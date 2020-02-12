@@ -1,5 +1,3 @@
-## Tag Your Image
-
 To prepare a docker image for a registry, we tag it and specify our newly
 created registry.
 

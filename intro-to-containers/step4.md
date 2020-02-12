@@ -1,5 +1,3 @@
-## Verify Your Image
-
 Once the build has finished, we can use the docker images command to verify our
 container image is available and ready to be deployed as a container:
 
