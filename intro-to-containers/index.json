@@ -1,6 +1,6 @@
 {
-  "title": "Introduction to Containers",
-  "description": "Learn how to build and run a docker container.",
+  "title": "Cloud Native Basics: Containers and Kubernetes",
+  "description": "Learn how to build, run, and deploy a container to Kubernetes.",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
