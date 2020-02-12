@@ -89,7 +89,7 @@
     }
   },
   "assets": {
-    "host01": [
+    "master": [
       {
         "file": "deployment.yaml",
         "target": "/root/kubernetes-yaml"
