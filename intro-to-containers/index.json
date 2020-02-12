@@ -89,16 +89,14 @@
     }
   },
   "assets": {
-    "master": [
-      {
-        "file": "deployment.yaml",
-        "target": "/root/kubernetes-yaml"
-      },
-      {
-        "file": "service.yaml",
-        "target": "/root/kubernetes-yaml"
-      }
-    ]
+    "host01": [{
+      "file": "deployment.yaml",
+      "target": "/root"
+    },
+    {
+      "file": "service.yaml", 
+      "target": "/root"
+    }]
   },
   "environment": {
     "showdashboard": true,
