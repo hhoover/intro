@@ -7,7 +7,6 @@
     "steps": [
       {
         "title": "Getting Oriented",
-        "courseData": "setup.sh",
         "text": "step1.md"
       },
       {
@@ -82,7 +81,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -92,11 +92,11 @@
     "host01": [
       {
         "file": "deployment.yaml",
-        "target": "~/kubernetes-yaml"
+        "target": "/root/kubernetes-yaml"
       },
       {
         "file": "service.yaml",
-        "target": "~/kubernetes-yaml"
+        "target": "/root/kubernetes-yaml"
       }
     ]
   },
