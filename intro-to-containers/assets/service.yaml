@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: Service
-metadata: 
+metadata:
   name: hugo-site
   labels:
     app: hugo-site
@@ -10,7 +10,7 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8080
+    targetPort: 80
     nodePort: 32321
   selector:
     app: hugo-site

@@ -1,3 +1,5 @@
+#### Your Terminal environment
+
 In this directory, we have a [Hugo][0]-based website along with a Dockerfile,
 which will be used to build a container image for this application.
 

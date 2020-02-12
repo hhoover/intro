@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: hugo-site
   labels:
     app: hugo-site
@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: hugosite
-        image: localhost:5000/hugo-site:v1       
+        image: localhost:5000/hugo-site:v1
         ports:
-        - containerPort: 8080
+        - containerPort: 80
