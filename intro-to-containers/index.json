@@ -89,14 +89,7 @@
     }
   },
   "assets": {
-    "host01": [{
-      "file": "deployment.yaml",
-      "target": "/root"
-    },
-    {
-      "file": "service.yaml", 
-      "target": "/root"
-    }]
+    "host01": []
   },
   "environment": {
     "showdashboard": true,
