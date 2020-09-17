@@ -88,9 +88,6 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "host01": []
-  },
   "environment": {
     "showdashboard": true,
         "dashboards": [{
